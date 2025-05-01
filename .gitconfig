@@ -1,3 +1,5 @@
 [user]
 	name = sanjay-28
 	email = sanjaykumarpal686@gmail.com
+[safe]
+	directory = /var/lib/jenkins/workspace/git-cicd

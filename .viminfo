@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q!
+|2,0,1746085711,,"q!"
 :wq!
 |2,0,1746077325,,"wq!"
-:q!
-|2,0,1746075955,,"q!"
 :Wq!
 |2,0,1746075936,,"Wq!"
 :q
@@ -31,9 +31,9 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	      -80:80
-|3,1,1,1,1,0,1746077253,"      -80:80"
+|3,0,1,1,1,0,1746077253,"      -80:80"
 "2	LINE	0
 	    ports :
 |3,0,2,1,1,0,1746077253,"    ports :"
@@ -58,45 +58,73 @@
 "9	LINE	0
 	    ports:
 |3,0,9,1,1,0,1746075863,"    ports:"
-"-	CHAR	0
-	 
-|3,0,36,0,1,0,1746077055," "
+""-	CHAR	0
+	1
+|3,1,36,0,1,0,1746085647,"1"
 
 # File marks:
 '0  8  13  ~/web.yaml
-|4,48,8,13,1746077325,"~/web.yaml"
-'1  1  7  ~/web.yaml
-|4,49,1,7,1746077058,"~/web.yaml"
-'2  1  7  ~/web.yaml
-|4,50,1,7,1746077058,"~/web.yaml"
-'3  1  0  ~/web.yaml
-|4,51,1,0,1746077023,"~/web.yaml"
-'4  1  0  ~/web.yaml
-|4,52,1,0,1746077023,"~/web.yaml"
-'5  5  0  ~/web.yaml
-|4,53,5,0,1746077023,"~/web.yaml"
-'6  5  0  ~/web.yaml
-|4,54,5,0,1746077023,"~/web.yaml"
-'7  1  8  ~/web.yaml
-|4,55,1,8,1746076881,"~/web.yaml"
-'8  1  8  ~/web.yaml
-|4,56,1,8,1746076881,"~/web.yaml"
-'9  1  8  ~/web.yaml
-|4,57,1,8,1746076881,"~/web.yaml"
+|4,48,8,13,1746085711,"~/web.yaml"
+'1  6  22  /var/lib/jenkins/workspace/git-cicd/web.yaml
+|4,49,6,22,1746085653,"/var/lib/jenkins/workspace/git-cicd/web.yaml"
+'2  8  13  ~/web.yaml
+|4,50,8,13,1746077325,"~/web.yaml"
+'3  1  7  ~/web.yaml
+|4,51,1,7,1746077058,"~/web.yaml"
+'4  1  7  ~/web.yaml
+|4,52,1,7,1746077058,"~/web.yaml"
+'5  1  7  ~/web.yaml
+|4,53,1,7,1746077058,"~/web.yaml"
+'6  1  7  ~/web.yaml
+|4,54,1,7,1746077058,"~/web.yaml"
+'7  1  0  ~/web.yaml
+|4,55,1,0,1746077023,"~/web.yaml"
+'8  1  0  ~/web.yaml
+|4,56,1,0,1746077023,"~/web.yaml"
+'9  5  0  ~/web.yaml
+|4,57,5,0,1746077023,"~/web.yaml"
 
 # Jumplist (newest first):
+-'  8  13  ~/web.yaml
+|4,39,8,13,1746085711,"~/web.yaml"
+-'  6  22  /var/lib/jenkins/workspace/git-cicd/web.yaml
+|4,39,6,22,1746085653,"/var/lib/jenkins/workspace/git-cicd/web.yaml"
+-'  6  22  /var/lib/jenkins/workspace/git-cicd/web.yaml
+|4,39,6,22,1746085653,"/var/lib/jenkins/workspace/git-cicd/web.yaml"
+-'  1  0  /var/lib/jenkins/workspace/git-cicd/web.yaml
+|4,39,1,0,1746085642,"/var/lib/jenkins/workspace/git-cicd/web.yaml"
+-'  1  0  /var/lib/jenkins/workspace/git-cicd/web.yaml
+|4,39,1,0,1746085642,"/var/lib/jenkins/workspace/git-cicd/web.yaml"
+-'  8  13  ~/web.yaml
+|4,39,8,13,1746077325,"~/web.yaml"
 -'  8  13  ~/web.yaml
 |4,39,8,13,1746077325,"~/web.yaml"
 -'  1  7  ~/web.yaml
 |4,39,1,7,1746077249,"~/web.yaml"
 -'  1  7  ~/web.yaml
+|4,39,1,7,1746077249,"~/web.yaml"
+-'  1  7  ~/web.yaml
+|4,39,1,7,1746077249,"~/web.yaml"
+-'  1  7  ~/web.yaml
+|4,39,1,7,1746077058,"~/web.yaml"
+-'  1  7  ~/web.yaml
 |4,39,1,7,1746077058,"~/web.yaml"
 -'  5  0  ~/web.yaml
 |4,39,5,0,1746077034,"~/web.yaml"
 -'  5  0  ~/web.yaml
+|4,39,5,0,1746077034,"~/web.yaml"
+-'  5  0  ~/web.yaml
+|4,39,5,0,1746077034,"~/web.yaml"
+-'  5  0  ~/web.yaml
+|4,39,5,0,1746077023,"~/web.yaml"
+-'  5  0  ~/web.yaml
 |4,39,5,0,1746077023,"~/web.yaml"
 -'  1  8  ~/web.yaml
 |4,39,1,8,1746076892,"~/web.yaml"
+-'  1  8  ~/web.yaml
+|4,39,1,8,1746076892,"~/web.yaml"
+-'  1  8  ~/web.yaml
+|4,39,1,8,1746076881,"~/web.yaml"
 -'  1  8  ~/web.yaml
 |4,39,1,8,1746076881,"~/web.yaml"
 -'  3  0  ~/web.yaml
@@ -106,7 +134,33 @@
 -'  3  0  ~/web.yaml
 |4,39,3,0,1746076861,"~/web.yaml"
 -'  3  0  ~/web.yaml
+|4,39,3,0,1746076861,"~/web.yaml"
+-'  3  0  ~/web.yaml
+|4,39,3,0,1746076861,"~/web.yaml"
+-'  3  0  ~/web.yaml
+|4,39,3,0,1746076861,"~/web.yaml"
+-'  3  0  ~/web.yaml
+|4,39,3,0,1746076861,"~/web.yaml"
+-'  3  0  ~/web.yaml
 |4,39,3,0,1746076844,"~/web.yaml"
+-'  3  0  ~/web.yaml
+|4,39,3,0,1746076844,"~/web.yaml"
+-'  9  11  ~/web.yaml
+|4,39,9,11,1746076801,"~/web.yaml"
+-'  6  11  ~/web.yaml
+|4,39,6,11,1746076801,"~/web.yaml"
+-'  9  11  ~/web.yaml
+|4,39,9,11,1746076801,"~/web.yaml"
+-'  6  11  ~/web.yaml
+|4,39,6,11,1746076801,"~/web.yaml"
+-'  8  11  ~/web.yaml
+|4,39,8,11,1746076801,"~/web.yaml"
+-'  6  11  ~/web.yaml
+|4,39,6,11,1746076801,"~/web.yaml"
+-'  8  11  ~/web.yaml
+|4,39,8,11,1746076801,"~/web.yaml"
+-'  8  11  ~/web.yaml
+|4,39,8,11,1746076801,"~/web.yaml"
 -'  9  11  ~/web.yaml
 |4,39,9,11,1746076801,"~/web.yaml"
 -'  6  11  ~/web.yaml
@@ -123,6 +177,22 @@
 |4,39,10,11,1746075981,"~/web.yaml"
 -'  7  11  ~/web.yaml
 |4,39,7,11,1746075981,"~/web.yaml"
+-'  10  11  ~/web.yaml
+|4,39,10,11,1746075981,"~/web.yaml"
+-'  7  11  ~/web.yaml
+|4,39,7,11,1746075981,"~/web.yaml"
+-'  9  11  ~/web.yaml
+|4,39,9,11,1746075981,"~/web.yaml"
+-'  7  11  ~/web.yaml
+|4,39,7,11,1746075981,"~/web.yaml"
+-'  9  11  ~/web.yaml
+|4,39,9,11,1746075981,"~/web.yaml"
+-'  9  11  ~/web.yaml
+|4,39,9,11,1746075981,"~/web.yaml"
+-'  10  11  ~/web.yaml
+|4,39,10,11,1746075981,"~/web.yaml"
+-'  7  11  ~/web.yaml
+|4,39,7,11,1746075981,"~/web.yaml"
 -'  9  11  ~/web.yaml
 |4,39,9,11,1746075981,"~/web.yaml"
 -'  7  11  ~/web.yaml
@@ -135,6 +205,10 @@
 |4,39,1,0,1746075976,"~/web.yaml"
 -'  1  0  ~/web.yaml
 |4,39,1,0,1746075976,"~/web.yaml"
+-'  1  0  ~/web.yaml
+|4,39,1,0,1746075976,"~/web.yaml"
+-'  1  0  ~/web.yaml
+|4,39,1,0,1746075976,"~/web.yaml"
 -'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
 |4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
 -'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
@@ -211,85 +285,11 @@
 |4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
 -'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
 |4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  9  11  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,9,11,1746075955,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  1  0  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,1,0,1746075931,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  1  0  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,1,0,1746075931,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  1  0  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,1,0,1746075931,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  1  0  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,1,0,1746075931,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  1  0  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,1,0,1746075931,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  1  0  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,1,0,1746075931,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  1  0  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,1,0,1746075931,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  1  0  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,1,0,1746075931,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  1  0  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,1,0,1746075931,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  1  0  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,1,0,1746075931,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
--'  1  0  /var/lib/jenkins/workspace/cicdDemo/web.yaml
-|4,39,1,0,1746075931,"/var/lib/jenkins/workspace/cicdDemo/web.yaml"
 
 # History of marks within files (newest to oldest):
 
 > ~/web.yaml
-	*	1746077324	0
+	*	1746085709	0
 	"	8	13
 	^	8	14
 	.	8	13
@@ -307,6 +307,12 @@
 	+	5	30
 	+	6	22
 	+	8	13
+
+> /var/lib/jenkins/workspace/git-cicd/web.yaml
+	*	1746085652	0
+	"	6	22
+	.	6	23
+	+	6	23
 
 > /var/lib/jenkins/workspace/cicdDemo/web.yaml
 	*	1746075953	0
