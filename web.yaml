@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  web:
+    image: sanjay372/web:latest
+    container_name: web
+    ports:
+      - "80:80"
